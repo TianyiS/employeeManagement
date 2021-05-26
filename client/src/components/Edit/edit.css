@@ -1,0 +1,15 @@
+.form-div {
+    margin: 10% 20% 20% 20%;
+    width: 60%;
+    padding: 50px;
+    border-radius: 5px;
+    background-color:lightgrey;
+    padding: 20px;
+  }
+
+  .btn-edit-page {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    justify-content: space-between;
+  }

@@ -1,0 +1,43 @@
+.tbl-header {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  background-color: #dddddd;
+}
+.tbl-body {
+  text-align: center;
+}
+.tbl-top {
+  float: left;
+}
+.search-form {
+  margin: 5px 0px 5px 0px;
+}
+.input-box:focus{
+  border: 1px solid #555
+}
+.input-box {
+  width: 200px;
+  height: 20px;
+}
+
+.btn-add {
+  height: 20px;
+  width: 100px;
+  margin-right: 10px;
+}
+
+.btn-rst {
+  height: 20px;
+  width: 100px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.homepage-header {
+  display: flex;
+  justify-content: center;
+  background-color: #2DBBEA;
+}

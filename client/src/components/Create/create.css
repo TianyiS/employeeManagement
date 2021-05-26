@@ -1,0 +1,26 @@
+.form-div {
+  margin: 10% 20% 20% 20%;
+  width: 60%;
+  padding: 50px;
+  border-radius: 5px;
+  background-color:lightgrey;
+  padding: 20px;
+}
+.input {
+  width: 100%;
+  height: 25px;
+  padding: 10px 10px;
+  margin: 5px 5px 5px 0px;
+  display: inline-block;
+  border: 1px solid rgba(204, 204, 204, 0.61);
+  border-radius: 4px;
+  box-sizing: border-box;
+  /* text-align: center; */
+}
+
+.btn-create-page {
+  display: flex; 
+  margin-top: 10px;
+  margin-bottom: 5px;
+  justify-content: space-between;
+}
