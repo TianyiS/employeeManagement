@@ -7,7 +7,7 @@ import List from './List.js'
 import store from '../../store/configureStore.js';
 import * as actions from '../../actions';
 import './home.css';
-import ciscologo from './cisco-logo.png';
+import usarmylogo from './usarmy-logo.png';
 
 class Home extends Component {
   constructor(props) {
@@ -80,27 +80,29 @@ class Home extends Component {
   render() {
     return (
       <div>
-        <div className = 'homepage-header'>
-          <img src = {ciscologo} alt = 'logo'
-              style={{ width: '240px', height: '120px' }}>
+        <div className='homepage-header'>
+          <img src={usarmylogo} alt='logo'
+            style={{ width: '200px', height: '200px' }}>
           </img>
+          <div style={{ fontSize: 40 }}>
+            US Army Personnel Registry
+          </div>
         </div>
-        <h3>Employee Personnel Registry</h3>
         <div>
-          <div className = 'flex'>
+          <div className='flex'>
             <div>
               <Link to='/create'>
-                <button className = 'btn-add'>New Employee</button>
+                <button className='btn-add'>Add New</button>
               </Link>
-              <button className = 'btn-rst' onClick={this.handleReset}>Reset</button>
+              <button className='btn-rst' onClick={this.handleReset}>Reset</button>
             </div>
-            <form className = 'search-form'>
-                <input className = 'input-box'
-                  type='text'
-                  name='search'
-                  placeholder='Search'
-                  onChange={this.handleSearch}
-                />
+            <form className='search-form'>
+              <input className='input-box'
+                type='text'
+                name='search'
+                placeholder='Search'
+                onChange={this.handleSearch}
+              />
             </form>
           </div>
           <div>

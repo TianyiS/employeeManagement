@@ -11,8 +11,8 @@
 .search-form {
   margin: 5px 0px 5px 0px;
 }
-.input-box:focus{
-  border: 1px solid #555
+.input-box:focus {
+  border: 1px solid #555;
 }
 .input-box {
   width: 200px;
@@ -21,13 +21,13 @@
 
 .btn-add {
   height: 20px;
-  width: 100px;
+  width: 150px;
   margin-right: 10px;
 }
 
 .btn-rst {
   height: 20px;
-  width: 100px;
+  width: 150px;
 }
 
 .flex {
@@ -38,6 +38,7 @@
 
 .homepage-header {
   display: flex;
-  justify-content: center;
-  background-color: #2DBBEA;
+  justify-content: space-between;
+  align-content: center;
+  background-color: #bec4c5;
 }

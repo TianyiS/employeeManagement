@@ -90,7 +90,7 @@ class Create extends Component {
       <div className='form-div'>
         <h2>Welcome to Our System!</h2>
         <form onSubmit={e => this.onSubmit(e)}>
-          <label>This is me:</label><br/>
+          <label>This is me:</label><br />
           {/* <div>
             <label>Avastar</label><br/>
             <img
@@ -107,7 +107,7 @@ class Create extends Component {
             />
           </div>
           <div>
-            <label>Name:</label><br/>
+            <label>Name:</label><br />
             <input
               type='text'
               name='name'
@@ -117,7 +117,7 @@ class Create extends Component {
             />
           </div>
           <div>
-            <label>Rank:</label><br/>
+            <label>Rank:</label><br />
             <select
               name='rank'
               value={this.state.rank}
@@ -138,7 +138,7 @@ class Create extends Component {
             </select>
           </div>
           <div>
-            <label>Sex:</label><br/>
+            <label>Sex:</label><br />
             <select
               name='sex'
               value={this.state.sex}
@@ -151,7 +151,7 @@ class Create extends Component {
             </select>
           </div>
           <div>
-            <label>Start Date:</label><br/>
+            <label>Start Date:</label><br />
             <input
               type='date'
               name='startDate'
@@ -161,7 +161,7 @@ class Create extends Component {
             />
           </div>
           <div>
-            <label>Office Phone:</label><br/>
+            <label>Office Phone:</label><br />
             <input
               type='tel'
               name='phoneNumber'
@@ -172,7 +172,7 @@ class Create extends Component {
             />
           </div>
           <div>
-            <label>Email:</label><br/>
+            <label>Email:</label><br />
             <input
               type='email'
               name='email'
@@ -182,7 +182,7 @@ class Create extends Component {
             />
           </div>
           <div>
-            <label>Superior:</label><br/>
+            <label>Superior:</label><br />
             <select
               name='superior'
               value={this.state.superior}
@@ -198,9 +198,9 @@ class Create extends Component {
               })}
             </select>
           </div>
-          <div className = 'btn-create-page'>
+          <div className='btn-create-page'>
             <button type='submit'>Save</button>
-            <button onClick = {this.handleCancel}></button>
+            <button onClick={this.handleCancel}>Cancel</button>
           </div>
         </form>
       </div>
